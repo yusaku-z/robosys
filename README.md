@@ -9,10 +9,15 @@ Raspberry piの22番ピン(GPIO25)にLEDを配線
 
 # 使用方法
 $ make
+
 $ sudo insmod myled.ko
+
 $ sudo chmod 666 /dev/myled0
+
 $ sudo ./flash.bash
+
 $ sudo rmmod myled
+
 $ make clean
 
 # 動画
